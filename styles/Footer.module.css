@@ -1,0 +1,26 @@
+.footer {
+  display: block;
+  text-align: center;
+}
+
+.footerParagraph {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: rgb(150, 150, 150);
+  padding: 5%;
+}
+
+.hr {
+  border-top: 1px solid rgb(202, 202, 202);
+  margin-top: 10%;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 700px) {
+  .hr {
+    margin-top: 20%;
+  }
+  .footerParagraph {
+    padding: 10% 0;
+  }
+}

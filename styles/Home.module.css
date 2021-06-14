@@ -1,0 +1,91 @@
+.container {
+  width: 60%;
+  margin: 5% auto 0;
+}
+
+.body {
+  margin: 20% auto 0;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+}
+
+.fontInput {
+  height: 6vh;
+  border-radius: 4px;
+  border: 1px solid gray;
+  padding: 4px 15px;
+  font-size: 20px;
+}
+
+.fontInput:focus {
+  outline: none;
+}
+
+.picker {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hex {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.typeArea {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.buttons {
+  display: flex;
+  margin: 20px 0 0;
+  justify-content: space-around;
+}
+
+.submit {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  background-color: rgb(0, 153, 255);
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.showFont {
+  background-color: white;
+}
+
+.submitedText {
+  margin: 15% auto;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 425px) {
+  .submitedText {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .body {
+    flex-direction: column;
+  }
+  .typeArea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
