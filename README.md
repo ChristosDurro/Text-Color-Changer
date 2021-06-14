@@ -1,1 +1,1 @@
-This is a live text color changer app in order to see what your text would look like in a specific color. It's useful for cases like discord names where you can't change your color without telling the admin first.
+This is a live text color changer app in order to see what your text would look like in a specific color. It's useful for cases like discord names where you can't change your color without telling the admin first. So you won't have to ask him all the time if you don't like a color.
